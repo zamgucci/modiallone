@@ -26,3 +26,20 @@ ul {
   font-size: 30px;
   text-transform: uppercase;
 }
+
+.main__box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.main__bot-item {
+  width: 22%;
+  height: 350px;
+  background: purple;
+}
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
