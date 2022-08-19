@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.header__nav {
+  padding: 30px;
+  background: rgb(83, 83, 111);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+}
+.header__nav-link {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
